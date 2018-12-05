@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+#Written by Sian Bray on 15th November 2018
 #Reads through .fai (index file for a .fasta) and breaks it into a list of intervals of ~the same size.
 #Each interval takes up one line in the output file and can be input directly into a GATK command (or wrapper).
 #For example: line 1 could read: '-L scaffold_1 -L scaffold_2 -L scaffold_3' line 2 could read: '-L scaffold_3 -Lscaffold_4' etc).
